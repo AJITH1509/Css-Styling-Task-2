@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(22, 21, 21, 0.91);
+}
+.main-cntainer {
+  display: flex;
+  justify-content: center;
+}
+.main-cntainer img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+.card-container {
+  width: 375px;
+  padding: 10px;
+}
+.content {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.content h2 {
+  margin: 5px;
+  color: white;
+}
+.content p {
+  color: rgba(255, 255, 255, 0.653);
+  line-height: 1.5;
+}
+.content:hover {
+  background-color: rgba(255, 255, 255, 0.204);
+}
+@media screen and (max-width: 768px) {
+  .main-cntainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
