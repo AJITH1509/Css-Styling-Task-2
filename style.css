@@ -6,6 +6,7 @@ body {
   justify-content: center;
 }
 .main-cntainer img {
+  padding: 20px;
   width: 300px;
   height: 300px;
   object-fit: contain;
